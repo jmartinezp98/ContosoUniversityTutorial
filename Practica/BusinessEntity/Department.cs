@@ -30,6 +30,7 @@ namespace BusinessEntity
         [Range(0, int.MaxValue, ErrorMessage = "Ingresar dato de tipo entero")]
         public int InstructorId { get; set; }
         public Instructor Instructor { get; set; }
-        public virtual ICollection<Course> Courses { get; set; }
+
+        public virtual ICollection<Course> Courses { get; set; } 
     }
 }

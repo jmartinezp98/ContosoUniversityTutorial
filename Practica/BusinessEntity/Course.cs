@@ -25,6 +25,7 @@ namespace BusinessEntity
         [ForeignKey("Department")]
         public int departamentid { get; set; }
         public Department department { get; set; }
-        public virtual ICollection<Enrollment> Enrollments { get; set; }
+
+        public virtual ICollection<Enrollment> Enrollments { get; set; } 
     }
 }

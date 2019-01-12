@@ -24,7 +24,7 @@ namespace BusinessEntity
         [DataType(DataType.DateTime)]
         public DateTime HireDate { get; set; }
 
-       /* public virtual ICollection<OfficeAsignment> OfficeAsignments  { get; set; }
-        public virtual ICollection<Department> Departments { get; set; }*/
+        public virtual ICollection<OfficeAsignment> OfficeAsignments  { get; set; }
+        public virtual ICollection<Department> Departments { get; set; }
     }
 }

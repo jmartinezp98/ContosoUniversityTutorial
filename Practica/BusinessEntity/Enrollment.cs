@@ -27,6 +27,6 @@ namespace BusinessEntity
 
         [Required(ErrorMessage = "El campo Grade es obligatorio")]
         [StringLength(5, ErrorMessage = "La longitud es de 5 caracteres")]
-        public string grade { get; set; }
+        public string grade { get; set; } 
     }
 }

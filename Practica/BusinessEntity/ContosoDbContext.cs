@@ -12,7 +12,7 @@ namespace BusinessEntity
 
     public class ContosoDbContext : DbContext
     {
-        public ContosoDbContext() : base("ContosoDbContext")
+        public ContosoDbContext() : base("ContosoDbContext") 
         {
             //constructor vacio
         }
