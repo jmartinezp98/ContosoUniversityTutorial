@@ -18,7 +18,12 @@ namespace BusinessEntity
         }
 
         //tablas
-
+        public DbSet<Course> Courses { get; set; }
+        public DbSet<Enrollment> Enrollments { get; set; }
+        public DbSet<Student> Students { get; set; }
+        public DbSet<OfficeAsignment> OfficeAsignments { get; set; }
+        public DbSet<Department> Departments { get; set; }
+        public DbSet<Instructor> Instructors { get; set; }
         //tablas
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
