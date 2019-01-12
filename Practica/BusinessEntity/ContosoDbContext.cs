@@ -23,7 +23,7 @@ namespace BusinessEntity
         public DbSet<Student> Students { get; set; }
         public DbSet<OfficeAsignment> OfficeAsignments { get; set; }
         public DbSet<Department> Departments { get; set; }
-        public DbSet<Instructor> Instructors { get; set; }
+        public DbSet<Instructor> Instructors { get; set; } 
         //tablas
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
